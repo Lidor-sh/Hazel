@@ -3,5 +3,9 @@
 bin/
 bin-int/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cbea943ff429a847392ce2aa8f816a52f595f8cc
 # Files
 *.user
