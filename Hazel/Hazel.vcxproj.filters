@@ -22,6 +22,9 @@
     <ClInclude Include="src\Hazel\Core.h">
       <Filter>Hazel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Hazel\EntryPoint.h">
+      <Filter>Hazel</Filter>
+    </ClInclude>
     <ClInclude Include="src\Hazel\Events\ApplicationEvent.h">
       <Filter>Hazel\Events</Filter>
     </ClInclude>
@@ -34,6 +37,12 @@
     <ClInclude Include="src\Hazel\Events\MouseEvent.h">
       <Filter>Hazel\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\Hazel\Layer.h">
+      <Filter>Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hazel\LayerStack.h">
+      <Filter>Hazel</Filter>
+    </ClInclude>
     <ClInclude Include="src\Hazel\Log.h">
       <Filter>Hazel</Filter>
     </ClInclude>
@@ -44,10 +53,15 @@
       <Filter>Platform\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h" />
-    <ClInclude Include="src\Hazel\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
+      <Filter>Hazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hazel\Layer.cpp">
+      <Filter>Hazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hazel\LayerStack.cpp">
       <Filter>Hazel</Filter>
     </ClCompile>
     <ClCompile Include="src\Hazel\Log.cpp">
